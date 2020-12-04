@@ -1,0 +1,50 @@
+*,
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+#content-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/pexels-gya-den-2303781 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#content-wrapper #heading1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 5em;
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 10px solid rgba(255, 255, 255, 0.5);
+}
+
+#content-wrapper #left-section {
+  float: left;
+  height: 100%;
+  width: 33.3333%;
+}
+
+#content-wrapper #left-section h1 {
+  text-align: left;
+  padding-left: 1em;
+  font-family: "Oswald", sans-serif;
+  font-size: 3.5em;
+  text-transform: uppercase;
+}
+
+#content-wrapper #left-section a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  color: #26EDFF;
+}
+
+#content-wrapper #right-section {
+  float: right;
+  height: 100%;
+  width: 66.6666%;
+}
+/*# sourceMappingURL=style.css.map */
