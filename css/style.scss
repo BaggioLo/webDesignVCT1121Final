@@ -12,7 +12,7 @@ html {
   height: 100vh;
   background-image: url("../images/pexels-gya-den-2303781\ 1.png");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   #heading1{
     font-family: "Oswald", sans-serif;
     font-size: 6em;
@@ -20,16 +20,18 @@ html {
     text-align: center;
     border-bottom: 10px solid rgba(255, 255, 255, 0.5);
   }
+
   #left-section {
     float: left;
     height: 100%;
     width: 33.3333%;
-    // background-color: black;
+    //background-color: black;
     h1 {
         text-align: left;
         padding-left: 1em;
+        padding-top: 5%;
         font-family: "Oswald", sans-serif;
-        font-size: 3.5em;
+        font-size: 5em;
         text-transform: uppercase;
         
     }
@@ -39,12 +41,87 @@ html {
         display: inline-block;
         color: #26EDFF;
     }
+    a:hover{
+      color:white;
+    }
+    a:active {
+      color:white;
+    }
   }
+
   #right-section {
     float: right;
     height: 100%;
     width: 66.6666%;
-    // background-color: red;
+    font-family: 'Roboto', sans-serif;
+    #main {
+      height: 65%;
+      width: 85%;
+      margin: 5.75% 0 0 7.5%;
+      //border-radius: 2.5%;
+      //background-color: red;
+      #main-left{
+        float: left;
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        border-radius: 10% 0 0 10%;
+        background-image: url("../images/pexels-roman-odintsov-4553618.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Roboto', sans-serif;
+
+        h2 {
+          font-family: 'Oswald', sans-serif;
+          font-size: 1.1em;
+          padding-top: 30%;
+        }
+      }
+      #main-right{
+        float: right;
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        border-radius: 0% 10% 10% 0%;
+        background-image: url("../images/background2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgba(46, 49, 49, 0.6);
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        img {
+          padding-top: 8%;
+        }
+        #formfield{
+          padding-top: 8%;
+          padding-left: 5%;
+          text-align: left;
+          h4{
+            padding-top: 10%;
+            padding-left: 12.5%;
+          p{
+            font-size: .08em;
+            padding-top: 2.5%;
+            text-align: left;
+            padding-left: 12.5%;
+          }
+          input{
+            margin-left: 12.5%;
+            padding: 2.5% 12.5% 2.5% 12.5%;
+          }
+          #button{
+            text-align: center;
+            font-family: 'Oswald', sans-serif;
+            margin-top: 5%;
+            margin-left: 25%;
+            padding: 2.5% 10% 2.5% 10%;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            font-size: 1.1em;
+          }
+        }
+      }
+    }
   }
 }
 

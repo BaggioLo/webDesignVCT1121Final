@@ -15,7 +15,7 @@ html {
 
 #content-wrapper #heading1 {
   font-family: "Oswald", sans-serif;
-  font-size: 5em;
+  font-size: 6em;
   text-transform: uppercase;
   text-align: center;
   border-bottom: 10px solid rgba(255, 255, 255, 0.5);
@@ -30,8 +30,9 @@ html {
 #content-wrapper #left-section h1 {
   text-align: left;
   padding-left: 1em;
+  padding-top: 5%;
   font-family: "Oswald", sans-serif;
-  font-size: 3.5em;
+  font-size: 5em;
   text-transform: uppercase;
 }
 
@@ -42,9 +43,94 @@ html {
   color: #26EDFF;
 }
 
+#content-wrapper #left-section a:hover {
+  color: white;
+}
+
+#content-wrapper #left-section a:active {
+  color: white;
+}
+
 #content-wrapper #right-section {
   float: right;
   height: 100%;
   width: 66.6666%;
+  font-family: 'Roboto', sans-serif;
+}
+
+#content-wrapper #right-section #main {
+  height: 65%;
+  width: 85%;
+  margin: 5.75% 0 0 7.5%;
+}
+
+#content-wrapper #right-section #main #main-left {
+  float: left;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  border-radius: 10% 0 0 10%;
+  background-image: url("../images/pexels-roman-odintsov-4553618.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+
+#content-wrapper #right-section #main #main-left h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.1em;
+  padding-top: 30%;
+}
+
+#content-wrapper #right-section #main #main-right {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  border-radius: 0% 10% 10% 0%;
+  background-image: url("../images/background2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(46, 49, 49, 0.6);
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+#content-wrapper #right-section #main #main-right img {
+  padding-top: 8%;
+}
+
+#content-wrapper #right-section #main #main-right #formfield {
+  padding-top: 8%;
+  padding-left: 5%;
+  text-align: left;
+}
+
+#content-wrapper #right-section #main #main-right #formfield h4 {
+  padding-top: 10%;
+  padding-left: 12.5%;
+}
+
+#content-wrapper #right-section #main #main-right #formfield p {
+  font-size: .08em;
+  padding-top: 2.5%;
+  text-align: left;
+  padding-left: 12.5%;
+}
+
+#content-wrapper #right-section #main #main-right #formfield input {
+  margin-left: 12.5%;
+  padding: 2.5% 12.5% 2.5% 12.5%;
+}
+
+#content-wrapper #right-section #main #main-right #formfield #button {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 5%;
+  margin-left: 25%;
+  padding: 2.5% 10% 2.5% 10%;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-size: 1.1em;
 }
 /*# sourceMappingURL=style.css.map */
