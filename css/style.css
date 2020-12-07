@@ -38,7 +38,6 @@ html {
 
 #content-wrapper #left-section a {
   text-decoration: none;
-  color: black;
   display: inline-block;
   color: #26EDFF;
 }
@@ -101,33 +100,33 @@ html {
 }
 
 #content-wrapper #right-section #main #main-right #formfield {
-  padding-top: 8%;
+  padding-top: 4%;
   padding-left: 5%;
-  text-align: left;
+  letter-spacing: 0.1em;
 }
 
-#content-wrapper #right-section #main #main-right #formfield h4 {
+#content-wrapper #right-section #main #main-right h4 {
   padding-top: 10%;
-  padding-left: 12.5%;
+  text-align: left;
+  margin-left: 24.25%;
+  margin-bottom: 2%;
 }
 
-#content-wrapper #right-section #main #main-right #formfield p {
+#content-wrapper #right-section #main #main-right p {
   font-size: .08em;
   padding-top: 2.5%;
   text-align: left;
-  padding-left: 12.5%;
+  padding-left: 25%;
 }
 
-#content-wrapper #right-section #main #main-right #formfield input {
-  margin-left: 12.5%;
+#content-wrapper #right-section #main #main-right input {
   padding: 2.5% 12.5% 2.5% 12.5%;
 }
 
-#content-wrapper #right-section #main #main-right #formfield #button {
+#content-wrapper #right-section #button {
   text-align: center;
   font-family: 'Oswald', sans-serif;
   margin-top: 5%;
-  margin-left: 25%;
   padding: 2.5% 10% 2.5% 10%;
   letter-spacing: 0.2em;
   text-transform: uppercase;
