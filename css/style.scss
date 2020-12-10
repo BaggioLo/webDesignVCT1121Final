@@ -18,7 +18,7 @@ html {
     font-size: 6em;
     text-transform: uppercase;
     text-align: center;
-    border-bottom: 10px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 4px solid #26EDFF;
   }
 
   #left-section {
@@ -43,7 +43,7 @@ html {
     a:hover{
       color:white;
     }
-    a:active {
+    .active {
       color:white;
     }
   }
@@ -53,6 +53,9 @@ html {
     height: 100%;
     width: 66.6666%;
     font-family: 'Roboto', sans-serif;
+    //#main:hover{
+      //border: 4px solid #26EDFF;
+    //}
     #main {
       height: 65%;
       width: 85%;

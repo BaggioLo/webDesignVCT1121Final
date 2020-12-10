@@ -18,7 +18,7 @@ html {
   font-size: 6em;
   text-transform: uppercase;
   text-align: center;
-  border-bottom: 10px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 4px solid #26EDFF;
 }
 
 #content-wrapper #left-section {
@@ -46,7 +46,7 @@ html {
   color: white;
 }
 
-#content-wrapper #left-section a:active {
+#content-wrapper #left-section .active {
   color: white;
 }
 
